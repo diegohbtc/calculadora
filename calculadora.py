@@ -7,7 +7,7 @@ class Interfaz:
         self.ventana.title("Calculadora")
 
         #Agregar una caja de texto para que sea la pantalla de la calculadora
-        self.pantalla=Text(ventana, state="disabled", width=40, height=3, background="orchid", foreground="white", font=("Helvetica",15))
+        self.pantalla=Text(ventana, state="disabled", width=40, height=3, background="blue", foreground="white", font=("Helvetica",15))
 
         #Ubicar la pantalla en la ventana
         self.pantalla.grid(row=0, column=0, columnspan=4, padx=5, pady=5)
